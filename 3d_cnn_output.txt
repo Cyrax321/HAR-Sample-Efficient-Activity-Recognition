@@ -1,0 +1,177 @@
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 23.8 MB/s eta 0:00:00
+Mounted at /content/drive
+Downloading from https://www.kaggle.com/api/v1/datasets/download/sharjeelmazhar/human-activity-recognition-video-dataset?dataset_version_number=1...
+100%|██████████| 14.8G/14.8G [02:35<00:00, 102MB/s] 
+Extracting files...
+
+Loading Clapping: 100%|██████████| 50/50 [01:55<00:00,  2.31s/it]
+Loading Meet and Split: 100%|██████████| 50/50 [01:54<00:00,  2.30s/it]
+Loading Sitting: 100%|██████████| 50/50 [03:29<00:00,  4.20s/it]
+Loading Standing Still: 100%|██████████| 50/50 [03:45<00:00,  4.51s/it]
+Loading Walking: 100%|██████████| 50/50 [02:00<00:00,  2.41s/it]
+Loading Walking While Reading Book: 100%|██████████| 50/50 [02:23<00:00,  2.87s/it]
+Loading Walking While Using Phone: 100%|██████████| 50/50 [03:12<00:00,  3.85s/it]
+/usr/local/lib/python3.11/dist-packages/keras/src/layers/convolutional/base_conv.py:107: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+ Epoch 1/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 17s 162ms/step - accuracy: 0.2269 - loss: 35.3005 - val_accuracy: 0.1714 - val_loss: 27.6087
+ Train Acc: 0.3107 | Val Acc: 0.1714 | Test Acc: 0.1714
+ Best model saved.
+
+ Epoch 2/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 93ms/step - accuracy: 0.5560 - loss: 14.2045 - val_accuracy: 0.1429 - val_loss: 52.5167
+ Train Acc: 0.5536 | Val Acc: 0.1429 | Test Acc: 0.1429
+
+ Epoch 3/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 95ms/step - accuracy: 0.7014 - loss: 7.5311 - val_accuracy: 0.3429 - val_loss: 56.8663
+ Train Acc: 0.7000 | Val Acc: 0.3429 | Test Acc: 0.3429
+ Best model saved.
+
+ Epoch 4/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 94ms/step - accuracy: 0.7425 - loss: 3.6127 - val_accuracy: 0.2571 - val_loss: 97.4721
+ Train Acc: 0.6893 | Val Acc: 0.2571 | Test Acc: 0.2571
+
+ Epoch 5/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 97ms/step - accuracy: 0.7503 - loss: 4.6397 - val_accuracy: 0.1429 - val_loss: 182.4097
+ Train Acc: 0.7750 | Val Acc: 0.1429 | Test Acc: 0.1429
+
+ Epoch 6/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 4s 101ms/step - accuracy: 0.8384 - loss: 2.7316 - val_accuracy: 0.1714 - val_loss: 182.8059
+ Train Acc: 0.7964 | Val Acc: 0.1714 | Test Acc: 0.1714
+
+ Epoch 7/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 4s 106ms/step - accuracy: 0.8036 - loss: 2.3905 - val_accuracy: 0.3286 - val_loss: 33.7931
+ Train Acc: 0.8000 | Val Acc: 0.3286 | Test Acc: 0.3286
+
+ Epoch 8/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 93ms/step - accuracy: 0.8418 - loss: 1.4627 - val_accuracy: 0.5571 - val_loss: 21.9557
+ Train Acc: 0.8571 | Val Acc: 0.5571 | Test Acc: 0.5571
+ Best model saved.
+
+ Epoch 9/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 98ms/step - accuracy: 0.8493 - loss: 1.6310 - val_accuracy: 0.4571 - val_loss: 24.5226
+ Train Acc: 0.8607 | Val Acc: 0.4571 | Test Acc: 0.4571
+
+ Epoch 10/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 98ms/step - accuracy: 0.8809 - loss: 0.8198 - val_accuracy: 0.5571 - val_loss: 19.5244
+ Train Acc: 0.8571 | Val Acc: 0.5571 | Test Acc: 0.5571
+
+ Epoch 11/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 4s 109ms/step - accuracy: 0.8720 - loss: 0.8336 - val_accuracy: 0.5286 - val_loss: 20.9406
+ Train Acc: 0.8714 | Val Acc: 0.5286 | Test Acc: 0.5286
+
+ Epoch 12/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 95ms/step - accuracy: 0.8832 - loss: 1.2333 - val_accuracy: 0.6286 - val_loss: 6.1385
+ Train Acc: 0.8750 | Val Acc: 0.6286 | Test Acc: 0.6286
+ Best model saved.
+
+ Epoch 13/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 4s 100ms/step - accuracy: 0.9001 - loss: 0.6622 - val_accuracy: 0.5143 - val_loss: 21.5285
+ Train Acc: 0.8857 | Val Acc: 0.5143 | Test Acc: 0.5143
+
+ Epoch 14/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 100ms/step - accuracy: 0.8313 - loss: 1.8134 - val_accuracy: 0.8143 - val_loss: 3.7372
+ Train Acc: 0.8536 | Val Acc: 0.8143 | Test Acc: 0.8143
+ Best model saved.
+
+ Epoch 15/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 97ms/step - accuracy: 0.8780 - loss: 1.5039 - val_accuracy: 0.7714 - val_loss: 5.6027
+ Train Acc: 0.8607 | Val Acc: 0.7714 | Test Acc: 0.7714
+
+ Epoch 16/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 100ms/step - accuracy: 0.8916 - loss: 0.6730 - val_accuracy: 0.8429 - val_loss: 3.4236
+ Train Acc: 0.8607 | Val Acc: 0.8429 | Test Acc: 0.8429
+ Best model saved.
+
+ Epoch 17/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 98ms/step - accuracy: 0.8964 - loss: 0.4128 - val_accuracy: 0.8143 - val_loss: 1.8655
+ Train Acc: 0.8857 | Val Acc: 0.8143 | Test Acc: 0.8143
+
+ Epoch 18/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 100ms/step - accuracy: 0.8959 - loss: 0.6495 - val_accuracy: 0.8571 - val_loss: 1.4862
+ Train Acc: 0.9000 | Val Acc: 0.8571 | Test Acc: 0.8571
+ Best model saved.
+
+ Epoch 19/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 98ms/step - accuracy: 0.8875 - loss: 0.4619 - val_accuracy: 0.9000 - val_loss: 0.6108
+ Train Acc: 0.8821 | Val Acc: 0.9000 | Test Acc: 0.9000
+ Best model saved.
+
+ Epoch 20/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 98ms/step - accuracy: 0.9002 - loss: 0.3560 - val_accuracy: 0.8857 - val_loss: 1.4911
+ Train Acc: 0.8964 | Val Acc: 0.8857 | Test Acc: 0.8857
+
+ Epoch 21/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 4s 106ms/step - accuracy: 0.9087 - loss: 0.3823 - val_accuracy: 0.8714 - val_loss: 2.5983
+ Train Acc: 0.9250 | Val Acc: 0.8714 | Test Acc: 0.8714
+
+ Epoch 22/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 4s 106ms/step - accuracy: 0.9251 - loss: 0.1783 - val_accuracy: 0.8714 - val_loss: 2.1578
+ Train Acc: 0.9107 | Val Acc: 0.8714 | Test Acc: 0.8714
+
+ Epoch 23/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 4s 104ms/step - accuracy: 0.9426 - loss: 0.1891 - val_accuracy: 0.7000 - val_loss: 6.0526
+ Train Acc: 0.9286 | Val Acc: 0.7000 | Test Acc: 0.7000
+
+ Epoch 24/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 4s 100ms/step - accuracy: 0.9584 - loss: 0.3805 - val_accuracy: 0.5286 - val_loss: 6.5302
+ Train Acc: 0.9429 | Val Acc: 0.5286 | Test Acc: 0.5286
+
+ Epoch 25/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 100ms/step - accuracy: 0.9133 - loss: 0.7037 - val_accuracy: 0.7429 - val_loss: 3.2484
+ Train Acc: 0.8893 | Val Acc: 0.7429 | Test Acc: 0.7429
+
+ Epoch 26/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 4s 100ms/step - accuracy: 0.8989 - loss: 1.5141 - val_accuracy: 0.7286 - val_loss: 5.4817
+ Train Acc: 0.8964 | Val Acc: 0.7286 | Test Acc: 0.7286
+
+ Epoch 27/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 98ms/step - accuracy: 0.9390 - loss: 0.4586 - val_accuracy: 0.7143 - val_loss: 4.4340
+ Train Acc: 0.9286 | Val Acc: 0.7143 | Test Acc: 0.7143
+
+ Epoch 28/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 4s 110ms/step - accuracy: 0.8948 - loss: 1.3120 - val_accuracy: 0.8429 - val_loss: 1.4107
+ Train Acc: 0.9036 | Val Acc: 0.8429 | Test Acc: 0.8429
+
+ Epoch 29/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 3s 98ms/step - accuracy: 0.9083 - loss: 0.5079 - val_accuracy: 0.4571 - val_loss: 10.4727
+ Train Acc: 0.9000 | Val Acc: 0.4571 | Test Acc: 0.4571
+
+ Epoch 30/30
+35/35 ━━━━━━━━━━━━━━━━━━━━ 4s 101ms/step - accuracy: 0.8667 - loss: 0.8255 - val_accuracy: 0.8286 - val_loss: 3.8340
+ Train Acc: 0.8893 | Val Acc: 0.8286 | Test Acc: 0.8286
+
+ Classification Report:
+                            precision    recall  f1-score   support
+
+                  Clapping       0.77      1.00      0.87        10
+            Meet and Split       0.90      0.90      0.90        10
+                   Sitting       0.89      0.80      0.84        10
+            Standing Still       0.75      0.90      0.82        10
+                   Walking       0.83      0.50      0.62        10
+Walking While Reading Book       1.00      0.90      0.95        10
+ Walking While Using Phone       0.73      0.80      0.76        10
+
+                  accuracy                           0.83        70
+                 macro avg       0.84      0.83      0.82        70
+              weighted avg       0.84      0.83      0.82        70
+
+another report:
+
+ Classification Report:
+                            precision    recall  f1-score   support
+
+                  Clapping       1.00      1.00      1.00        10
+            Meet and Split       0.90      0.90      0.90        10
+                   Sitting       1.00      1.00      1.00        10
+            Standing Still       0.77      1.00      0.87        10
+                   Walking       0.86      0.60      0.71        10
+Walking While Reading Book       0.90      0.90      0.90        10
+ Walking While Using Phone       0.90      0.90      0.90        10
+
+                  accuracy                           0.90        70
+                 macro avg       0.90      0.90      0.90        70
+              weighted avg       0.90      0.90      0.90        70
+
+ Evaluation complete. Confusion matrix and accuracy graph saved!
