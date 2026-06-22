@@ -14,7 +14,7 @@ Implemented in a standardized pipeline, the 3D CNN-LSTM hybrid effectively model
 
 We recommend using Python 3.8 or later. The codebase depends on TensorFlow/Keras for the convolutional and recurrent baselines, and PyTorch/Hugging Face for the transformer architectures. 
 
-To set up the environment, install the following core dependencies:
+To set up the environment, install the following core dependencies :
 
 ```bash
 pip install numpy pandas scikit-learn opencv-python-headless matplotlib seaborn tqdm
